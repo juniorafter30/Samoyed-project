@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrupek, Chrapek, Chrypek</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/jarallax.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#chrupek">Chrupek</a></li>
+                <li><a href="#chrapek">Chrapek</a></li>
+                <li><a href="#chrypek">Chrypek</a></li>
+                <li><a href="#zdupek">Zdupek</a></li>
+                <button><a href="#Zamow">Zamów</a></button>
+            </ul>
+        </div>
+    </nav>
+    <section id="chrupek">
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Chrupek</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="/images/img1.jpg" class="jarallax-img" alt="">
+                </div>
+                <div class="content" data-jarallax-element="-200 0" >
+                    <p>To wspaniały kompan spacerów, energiczny, oddany, dostojny.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="chrapek">
+        <div class="box">
+            <h2 data-jarallax-element="100-200">Chrapek</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="/images/img2.jpg" class="jarallax-img" alt="">
+                </div>
+                <div class="content" data-jarallax-element="0 0" >
+                    <p>Cudak jakich malo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="chrypek">
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Chrypek</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="/images/img3.jpg" class="jarallax-img" alt="">
+                </div>
+                <div class="content" data-jarallax-element="100 0" >
+                    <p>Też jest spoko morda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="zdupek">
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Zdupek</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="/images/img4.jpg" class="jarallax-img" alt="">
+                </div>
+                <div class="content" data-jarallax-element="100 100" >
+                    <p>Nie jest zbyt inteligentny.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+  
+    <script src="/jarallax.js"></script>
+    <script src="/jarallax-element.js"></script>
+ <script type="text/javascript">
+jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.2
+});</script>
+</body>
+</html>
